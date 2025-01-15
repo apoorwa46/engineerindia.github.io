@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams</title>
+    <style>
+    header{
+        background-color: rgb(9, 9, 72);
+        height: 150px;
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    .heading1 {
+        text-align: center;
+        color: aliceblue;
+    }
+    .webname{
+        text-align: center;
+        font-size: 40px;
+        color: aliceblue;
+    }
+    .gallery{
+        display: inline-block;
+        margin-top: 10px;
+        border: 2px solid black;
+    }
+    .gallery .description{
+        text-align: center;
+        color: rgb(58, 54, 54);
+    }
+    .gallery:hover{
+        border-color: rgb(218, 203, 203);
+        text-decoration: underline;
+    }
+    .exam1{
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 12%;
+    }
+    .exam1pp{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .exam2{
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 12%;
+    }
+    .exam2pp{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .exam3{
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 12%;
+    }
+    .exam3pp{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .exam4{
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 12%;
+    }
+    .exam4pp{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .exam5{
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 12%;
+    }
+    .exam5pp{
+        text-align: left;
+        margin-left: 12%;
+    }
+    .navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 4%, 26%);
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    }
+    .navbar a{
+        color: rgb(238, 224, 224);
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgb(212, 200, 200);
+    }
+    .table1 {
+        width: 75vw;
+        margin: auto;
+        border-collapse: collapse;
+        border: 1px solid #000;
+    }
+
+    .table1 td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+    }
+    .table2 {
+        width: 75vw;
+        margin: auto;
+        border-collapse: collapse;
+        border: 1px solid #000;
+    }
+
+    .table2 td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+    .table2 tr:first-child td {
+        font-weight: bold;
+        background-color: #c7bfbf;
+    }
+    .table2 tr:last-child td {
+        font-weight: bold;
+        background-color: #c7bfbf;
+    }
+    .contact{
+        background-color: rgb(199, 202, 202);
+        text-align: left;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .contact .social{
+        text-align: center;
+        text-decoration: none;
+        padding-bottom: 25px;
+        color: rgb(16, 15, 15);
+    }
+    #contactlist{
+        list-style: none;
+    }
+    .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(15, 13, 13);
+    }
+    h1{
+        color: rgb(224, 210, 20);
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 5px 3px 5px hsl(55, 20%, 26%);
+        transition: 0.3s ease;  
+    }
+    .examinfo{
+        margin-left: 12%;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="webname">EngineerIndia</h1>
+        <h1 class="heading1" style="text-align: center; text-decoration: underline;">Exams</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="jee.html">Home</a></li>
+            <li><a href="marksvsrank.html">Marks v/s Rank</a>
+            <li><a href="exams.html">Exams</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+    </nav>
+    <section>
+        <div class="gallery">
+            <a href="#exam1data"><img src="images/jeelogo.jpg" width="200px" height="110px"></a>
+            <div class="description">JEE-Mains</div>
+        </div>
+        <div class="gallery">
+            <a href="#exam2data"><img src="images/iitbannerlogo.jpg" width="200px" height="110px"></a>
+            <div class="description">JEE-Advanced</div>
+        </div>
+        <div class="gallery">
+            <a href="#exam4data"><img src="images/bitslogo.jpg" width="200px" height="110px"></a>
+            <div class="description">BITSAT</div>
+        </div>
+        <div class="gallery">
+            <a href="#exam4data"><img src="images/srmlogo.jpg" width="200px" height="110px"></a>
+            <div class="description">SRMJEEE</div>
+        </div>
+        <div class="gallery">
+            <a href="#exam5data"><img src="images/vitlogo.jpg" width="200px" height="110px"></a>
+            <div class="description">VITEEE</div>
+        </div>
+        <div id="exam1data" class="exam1data">
+            <h2 class="exam1">JEE-Mains</h2>
+            <h4 class="exam1">Overview</h4>
+            <table class="table1" border="1" style="border: solid;">
+                <tr>
+                    <td>Name</td>
+                    <td>Joint Entrance Examination (Main)</td>
+                </tr>
+                <tr>
+                    <td>Also Known as</td>
+                    <td>JEE Mains</td>
+                </tr>
+                <tr>
+                    <td>Exam mode</td>
+                    <td>Online (CBT)</td>
+                </tr>
+                <tr>
+                    <td>Conducted by</td>
+                    <td>National Testing Agency (NTA)</td>
+                </tr>
+                <tr>
+                    <td>Last Date of Application</td>
+                    <td>22nd November 2024</td>
+                </tr>
+                <tr>
+                    <td>Date of Exams</td>
+                    <td>
+                        <p>January 22 to January 30, 2025</p>
+                        <p>April 1 to April 8, 2025</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Test Duration</td>
+                    <td>3 hours</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a target="_blank" href="https://jeemain.nta.nic.in/">Click Here</a></td>
+                </tr>
+            </table>
+            
+            <h3 class="exam1pp">Paper Pattern</h3>
+            <table class="table2" border="1" style="border: solid; display: ">
+                <tr>
+                    <td>Subject</td>
+                    <td>No. of Questions</td>
+                    <td>Marks</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Section A:20, Section B:5</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>Section A:20, Section B:5</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>Section A:20, Section B:5</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>75</td>
+                    <td>300</td>
+                </tr>
+            </table>
+            <hr>
+            <h4 style="margin-left: 12%; text-decoration: underline;">Other Information</h4>
+            <div class="examinfo">
+                <p>*Section A in each subject consists of 20 Multiple Choice Questions (MCQs), each with four options, only one of which is correct.</p>
+                <p>*Section B in each subject contains 5 Numerical Value Questions, where the candidate must enter the correct integer value. The answer should be rounded off to the nearest integer.</p>
+                <p>*For both sections, each correct answer awards 4 marks, while each incorrect answer results in a penalty of 1 mark (-1 mark).</p>
+                <p>*No marks are given for questions that are not attempted.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+        <div id="exam2data" class="exam2data">
+            <h2 class="exam2">JEE (Advanced)</h2>
+            <h4 class="exam2">Overview</h4>
+            <table class="table1" border="1" style="border: solid;">
+                <tr>
+                    <td>Name</td>
+                    <td>Joint Entrance Exam (Advanced)</td>
+                </tr>
+                <tr>
+                    <td>Also Known as</td>
+                    <td>JEE (Advanced)</td>
+                </tr>
+                <tr>
+                    <td>Exam mode</td>
+                    <td>Online (CBT)</td>
+                </tr>
+                <tr>
+                    <td>Conducted by</td>
+                    <td>IIT Kanpur</td>
+                </tr>
+                <tr>
+                    <td>Last Date of Application</td>
+                    <td>After JEE Mains</td>
+                </tr>
+                <tr>
+                    <td>Date of Exams</td>
+                    <td>Sunday, May 18, 2025</td>
+                </tr>
+                <tr>
+                    <td>Test Duration</td>
+                    <td>6 hours in two slots</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a target="_blank" href="https://jeeadv.ac.in/">Click Here</a></td>
+                </tr>
+            </table>
+            <h3 class="exam2pp">Paper Pattern</h3>
+            <table class="table2" border="1" style="border: solid; display: ">
+                <tr>
+                    <td>Subject</td>
+                    <td>No. of Questions</td>
+                    <td>Marks</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>To be announced</td>
+                    <td>To be announced</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>To be announced</td>
+                    <td>To be announced</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>To be announced</td>
+                    <td>To be announced</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>To be announced</td>
+                    <td>To be announced</td>
+                </tr>
+    
+            </table>
+            <hr>
+            <h4 style="margin-left: 12%; text-decoration: underline;">Other Information</h4>
+            <div class="examinfo">
+                <p>*Two papers, each of 3 hours’ duration – Online (Fully computer-based test) mode.</p>
+                <p>*Both papers are compulsory.</p>
+                <p>*The question papers will consist of objective-type questions (multiple-choice and numerical answer type) designed to test the comprehension, reasoning, and analytical ability of candidates.</p>
+                <p>*Negative marks will be awarded for incorrect answers to some of the questions.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+        <div id="exam3data" class="exam3data">
+            <h2 class="exam3">BITSAT</h2>
+            <h4 class="exam3">Overview</h4>
+            <table class="table1" border="1" style="border: solid;">
+                <tr>
+                    <td>Name</td>
+                    <td>Birla Institute of Technology and Science Admission Test</td>
+                </tr>
+                <tr>
+                    <td>Also Known as</td>
+                    <td>BITSAT</td>
+                </tr>
+                <tr>
+                    <td>Exam mode</td>
+                    <td>Online (CBT)</td>
+                </tr>
+                <tr>
+                    <td>Conducted by</td>
+                    <td>BITS Pilani</td>
+                </tr>
+                <tr>
+                    <td>Last Date of Application (Tentative)</td>
+                    <td>
+                        <p>April 2025</p>
+                        <p>May 2025</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Exams (Tentative)</td>
+                    <td>
+                        <p>May 2025</p>
+                        <p>June 2025</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Test Duration</td>
+                    <td>3 hours</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a target="_blank" href="https://www.bitsadmission.com/bitsatmain.aspx?id=11012016">Click Here</a></td>
+                </tr>
+            </table>
+            <h3 class="exam3pp">Paper Pattern</h3>
+            <table class="table2" border="1" style="border: solid; display: ">
+                <tr>
+                    <td>Part</td>
+                    <td>Subject</td>
+                    <td>No. of questions</td>
+                </tr>
+                <tr>
+                    <td>Part I</td>
+                    <td>Physics</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Part II</td>
+                    <td>Chemistry</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Part III</td>
+                    <td>
+                        <p>(a) English Proficiency</p>
+                        <p>(b) Logical Reasoning</p>
+                    </td>
+                    <td>10,20</td>
+                </tr>
+                <tr>
+                    <td>Part IV</td>
+                    <td>Mathematics/Biology</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td> </td>
+                    <td>130</td>
+                </tr>
+            </table>
+            <hr>
+            <h4 style="margin-left: 12%; text-decoration: underline;">Other Information</h4>
+            <div class="examinfo">
+                <p>*BITSAT is a Computer-Based Test (CBT) and candidates need to book their test slots.</p>
+                <p>*There is no time limit for individual sections, and candidates can review and change their answers.</p>
+                <p>*Each correct answer earns 3 marks, while incorrect answers incur a penalty of -1 mark. No marks are given for unanswered questions.</p>
+                <p>*Additional questions are available to enhance your score.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <br> 
+
+
+        <div id="exam4data" class="exam4data">
+            <h2 class="exam4">SRMJEEE</h2>
+            <h4 class="exam4">Overview</h4>
+            <table class="table1">
+                <tr>
+                    <td>Name</td>
+                    <td>SRM Joint Engineering Entrance Exam</td>
+                </tr>
+                <tr>
+                    <td>Also Known as</td>
+                    <td>SRMJEEE</td>
+                </tr>
+                <tr>
+                    <td>Exam mode</td>
+                    <td>Online (CBT)</td>
+                </tr>
+                <tr>
+                    <td>Conducted by</td>
+                    <td>SRM Institute of Science and Technology</td>
+                </tr>
+                <tr>
+                    <td>Last Date of Application</td>
+                    <td>16 April 2025</td>
+                </tr>
+                <tr>
+                    <td>Date of Exams</td>
+                    <td>
+                        <p>First Phase- April 22 to 27, 2025</p>
+                        <p>Second Phase- June 12 to 17, 2025</p>
+                        <p>Third Phase- July 4 to 5, 2025</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Test Duration</td>
+                    <td>2 Hours and 30 Minutes</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a target="_blank" href="https://applications.srmist.edu.in/btech">Click Here</a></td>
+                </tr>
+            </table>
+        
+            <h3 class="exam4pp">Paper Pattern</h3>
+            <table class="table2">
+                <tr>
+                    <td>Subject</td>
+                    <td>No. of Questions</td>
+                    <td>Marks</td>
+                </tr>
+                <tr>
+                    <td>Mathematics/Biology</td>
+                    <td>40</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>35</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>35</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Aptitutde</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>125</td>
+                    <td>125</td>
+                </tr>
+            </table>
+            <hr>
+            <h4 style="margin-left: 12%; text-decoration: underline;">Other Information</h4>
+            <div class="examinfo">
+                <p>*It is a Computer Based Test, and candidates are required to do slot booking for the test.</p>
+                <p>*All questions will be in the form of Multiple Choice Questions (MCQs). Each question will have four options, with only one correct answer. Candidates should select only one option.</p>
+                <p>*There is no negative marking for incorrect answers. One mark will be awarded for each correct answer.</p>
+                <p>*Check SRMJEEE Sample Questions <a href="https://drive.google.com/file/d/1Vc8NdvVlEgejeZag_iz2Bw7iF2SQCqce/view">here</a>.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+        <div id="exam5data" class="exam5data">
+            <h2 class="exam5">VITEEE</h2>
+            <h4 class="exam5">Overview</h4>
+            <table class="table1">
+                <tr>
+                    <td>Name</td>
+                    <td>Vellore Institute of Technology Engineering Entrance Examination</td>
+                </tr>
+                <tr>
+                    <td>Also Known as</td>
+                    <td>VITEEE</td>
+                </tr>
+                <tr>
+                    <td>Exam mode</td>
+                    <td>Online (CBT)</td>
+                </tr>
+                <tr>
+                    <td>Conducted by</td>
+                    <td>SRM Institute of Science and Technology</td>
+                </tr>
+                <tr>
+                    <td>Last Date of Application</td>
+                    <td>March 31, 2025</td>
+                </tr>
+                <tr>
+                    <td>Date of Exams</td>
+                    <td>April 21 - April 27, 2025</td>
+                </tr>
+                <tr>
+                    <td>Test Duration</td>
+                    <td>2 Hours and 30 Minutes</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a target="_blank" href="https://viteee.vit.ac.in/">Click Here</a></td>
+                </tr>
+            </table>
+        
+            <h3 class="exam5pp">Paper Pattern</h3>
+            <table class="table2">
+                <tr>
+                    <td>Subject</td>
+                    <td>No. of Questions</td>
+                    <td>Marks</td>
+                </tr>
+                <tr>
+                    <td>Mathematics/Biology</td>
+                    <td>40</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>35</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>35</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Aptitutde</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>125</td>
+                    <td>125</td>
+                </tr>
+            </table>
+            <hr>
+            <h4 style="margin-left: 12%; text-decoration: underline;">Other Information</h4>
+            <div class="examinfo">
+                <p>*It is a Computer Based Test, and candidates are required to do slot booking for the test.</p>
+                <p>*All questions will be in the form of Multiple Choice Questions (MCQs). Each question will have four options, with only one correct answer. Candidates should select only one option.</p>
+                <p>*There is no negative marking for incorrect answers. One mark will be awarded for each correct answer.</p>
+                <p>*Check VITEEE Sample Questions <a href="https://drive.google.com/file/d/11sboiEVehDKiNiBMz8ST6qCqQ-OF-IhA/view">here</a>.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+            
+
+    </section>
+    <footer id="contact" class="contact">
+        <div class="social">
+            <h3 align="center">Contact</h3>
+            <ul align="center" id="contactlist">
+                <li style="color: black;";><a href="https://www.linkedin.com/in/apoorwa-kumar-479461302/">Linkedin</a></li>
+                <li style="color: black";><a href="https://www.instagram.com/apoorwa466?igsh=MWNoOWZqc2V5a2NqeA==">Instagram</a></li>
+                <li style="color: black;"><a href="https://github.com/apoorwa46">Github</a></li>
+            </ul>
+            <p class="copyright">2025 APOORWA KUMAR | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
